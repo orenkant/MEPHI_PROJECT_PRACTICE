@@ -1,0 +1,23 @@
+# Зависимости проекта. Проверено на Python 3.11+
+# обучение/инференс
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+lightgbm>=4.0
+joblib>=1.3
+
+# eda и интерпретация
+matplotlib>=3.7
+seaborn>=0.12
+shap>=0.43
+
+# notebook
+nbformat>=5.9
+ipykernel>=6.25
+jupyter>=1.0
+
+# api
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.5
+httpx>=0.27          # нужен для fastapi.testclient (scripts/smoke_api.py)

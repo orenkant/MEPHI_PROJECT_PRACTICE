@@ -1,0 +1,28 @@
+# данные не коммитим (большие файлы 4+ ГБ)
+DATA/
+*.csv
+*.pkl
+
+# артефакты модели
+model.pkl
+
+# изображения из ноутбука
+img_*.png
+
+# python мусор
+__pycache__/
+*.pyc
+*.pyo
+
+# jupyter
+.ipynb_checkpoints/
+
+# виртуальные окружения
+.venv/
+venv/
+env/
+
+# редакторы
+.vscode/
+.idea/
+*.swp

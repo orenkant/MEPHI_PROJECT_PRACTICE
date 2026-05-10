@@ -1,0 +1,27 @@
+[
+  {
+    "utm_medium": "cpc",
+    "device_category": "mobile",
+    "geo_city": "Moscow",
+    "visit_hour": 14,
+    "visit_dayofweek": 2,
+    "visit_number": 1
+  },
+  {
+    "utm_medium": "organic",
+    "device_category": "desktop",
+    "geo_city": "Saint Petersburg",
+    "visit_hour": 3,
+    "visit_dayofweek": 6,
+    "visit_number": 1
+  },
+  {
+    "utm_medium": "cpc",
+    "device_category": "desktop",
+    "geo_city": "Moscow",
+    "visit_hour": 11,
+    "visit_dayofweek": 1,
+    "visit_number": 5,
+    "client_id": "1000775308.1627486259"
+  }
+]
