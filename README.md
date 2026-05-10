@@ -213,9 +213,9 @@ python scripts/smoke_api.py
 claim | callback | call_number | open_dialog | submit_success | start_chat
 ```
 
-Найдено 14 целевых значений `event_action`. CR по датасету: 4.19 %, дисбаланс 1:23.
+Найдено 14 целевых значений `event_action`. CR по полному датасету (1.86 млн сессий, включая сессии без хитов): 4.19 %, дисбаланс 1:23.
 
-### Признаки (34 шт.)
+### Признаки (34 шт. = 28 базовых + `client_prev_cr` + 5 target-encoded)
 
 Сырые категории (заполнение пропусков `unknown`, схлопывание редких в `other`):
 
